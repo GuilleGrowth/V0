@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 
-export function FounderStory() {
+export default function FounderStory() {
   return (
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -9,7 +9,7 @@ export function FounderStory() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               <div className="relative h-64 lg:h-auto">
                 <img
-                  src="/founder-padel-director.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-09-03%20at%203.38.09%20PM-GZ9vuVl8vP46GU89T8gAbQdql4Ury1.png"
                   alt="Founder at padel wellness club"
                   className="w-full h-full object-cover"
                 />
@@ -22,8 +22,9 @@ export function FounderStory() {
                     From Sport Director to Growth Expert
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                    Our founder spent years as a sport director at a leading racket sports wellness club, experiencing
-                    firsthand the daily challenges of filling courts, retaining members, and growing revenue.
+                    Guillermo Frias worked as a sport director at multiple racket sports clubs, gaining deep insights
+                    into the industry's challenges. With extensive experience in marketing and AI technology, he
+                    combined these skills to create the ultimate growth strategy for racket sports clubs.
                   </p>
                 </div>
 
@@ -31,10 +32,10 @@ export function FounderStory() {
                   <div className="flex items-start gap-4">
                     <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground mb-2">The Challenge</h3>
+                      <h3 className="text-lg font-semibold text-foreground mb-2">Industry Experience</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        Managing court utilization, member engagement, and growth with outdated systems and manual
-                        processes that consumed valuable time and resources.
+                        Years of hands-on experience as a sport director in racket clubs, understanding every aspect
+                        from court operations to member retention and revenue optimization.
                       </p>
                     </div>
                   </div>
@@ -42,10 +43,10 @@ export function FounderStory() {
                   <div className="flex items-start gap-4">
                     <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground mb-2">The Vision</h3>
+                      <h3 className="text-lg font-semibold text-foreground mb-2">Marketing & AI Expertise</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        Combining deep industry knowledge with AI technology to create automated systems that solve real
-                        problems faced by racket sports clubs every day.
+                        Advanced expertise in digital marketing strategies combined with cutting-edge AI technology to
+                        create automated systems that drive consistent growth and member engagement.
                       </p>
                     </div>
                   </div>
@@ -53,10 +54,11 @@ export function FounderStory() {
                   <div className="flex items-start gap-4">
                     <div className="w-3 h-3 bg-secondary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground mb-2">The Solution</h3>
+                      <h3 className="text-lg font-semibold text-foreground mb-2">The Ultimate Strategy</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        RacketGrowth was born from this experience - a specialized agency that understands both the
-                        business side and the technical solutions needed for sustainable growth.
+                        RacketGrowth represents the perfect fusion of industry knowledge, marketing expertise, and AI
+                        innovation - delivering the ultimate growth strategy specifically designed for racket sports
+                        clubs.
                       </p>
                     </div>
                   </div>

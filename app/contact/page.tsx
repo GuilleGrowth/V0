@@ -1,7 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { ContactHero } from "@/components/contact-hero"
 import { ContactForm } from "@/components/contact-form"
-import { ContactCTA } from "@/components/contact-cta"
 
 export default function ContactPage() {
   return (
@@ -9,7 +8,6 @@ export default function ContactPage() {
       <Navigation />
       <ContactHero />
       <ContactForm />
-      <ContactCTA />
     </main>
   )
 }

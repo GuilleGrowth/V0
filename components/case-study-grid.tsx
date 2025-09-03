@@ -33,12 +33,6 @@ export function CaseStudyGrid() {
   return (
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-heading text-card-foreground mb-6">
-            More Success Stories
-          </h2>
-        </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {caseStudies.map((study, index) => (
             <Card key={index} className="bg-background border-border hover:border-primary transition-colors group">

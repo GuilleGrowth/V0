@@ -13,8 +13,8 @@ export function FeaturedCaseStudy() {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="relative h-64 lg:h-auto">
                 <img
-                  src="/modern-padel-facility-success.png"
-                  alt="Reserve Padel Design District courts"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Reserve%20Padel.jpg-FEBNT2zTSTcs9w9XEhI2vlob1UUHgk.jpeg"
+                  alt="Reserve Padel Design District logo"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent"></div>
@@ -25,7 +25,6 @@ export function FeaturedCaseStudy() {
                   <CardTitle className="text-2xl md:text-3xl font-bold font-heading text-card-foreground mb-2">
                     Reserve Padel Design District
                   </CardTitle>
-                  <p className="text-muted-foreground">Miami, FL • 12 Courts • 680 Members</p>
                 </CardHeader>
 
                 <CardContent className="p-0">
