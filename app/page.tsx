@@ -12,9 +12,9 @@ export default function HomePage() {
       <Navigation />
       <HeroSection />
       <GrowthSystem />
+      <ExclusivityNotice />
       <ServicesSnapshot />
       <CaseStudyTeaser />
-      <ExclusivityNotice />
       <HomepageContactForm />
     </main>
   )

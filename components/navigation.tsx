@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function Navigation() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+    <nav className="fixed top-0 w-full z-50 bg-slate-900/95 backdrop-blur supports-[backdrop-filter]:bg-slate-900/90 border-b border-slate-700">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -13,25 +13,25 @@ export function Navigation() {
                 alt="RacketGrowth Logo"
                 className="w-10 h-10"
               />
-              <span className="text-2xl font-bold font-heading text-foreground">RacketGrowth</span>
+              <span className="text-2xl font-bold font-heading text-white">RacketGrowth</span>
             </Link>
           </div>
 
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <Link href="/" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/" className="text-white hover:text-teal-400 transition-colors">
                 Home
               </Link>
-              <Link href="/services" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/services" className="text-white hover:text-teal-400 transition-colors">
                 Services
               </Link>
-              <Link href="/case-studies" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/case-studies" className="text-white hover:text-teal-400 transition-colors">
                 Case Studies
               </Link>
-              <Link href="/about" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/about" className="text-white hover:text-teal-400 transition-colors">
                 About
               </Link>
-              <Link href="/contact" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/contact" className="text-white hover:text-teal-400 transition-colors">
                 Contact
               </Link>
             </div>

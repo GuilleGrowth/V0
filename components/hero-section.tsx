@@ -7,11 +7,11 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/elite-tennis-club-action.png"
-          alt="Elite tennis club with players in action on premium courts"
+          src="/passionate-racket-sports-players-celebrating-with-.jpg"
+          alt="Happy racket sports players celebrating with passion and joy on court"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-primary/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-background/40 to-primary/10"></div>
       </div>
 
       {/* Content */}

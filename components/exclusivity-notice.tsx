@@ -3,15 +3,11 @@ import { AlertCircle } from "lucide-react"
 export function ExclusivityNotice() {
   return (
     <section
-      className="py-12 px-4 relative bg-cover bg-no-repeat"
-      style={{
-        backgroundImage: "url('/happy-tennis-team-portrait.png')",
-        backgroundPosition: "center 10%",
-      }}
+      className="relative py-16 px-4 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/modern-padel-tennis-action.png')" }}
     >
-      <div className="absolute inset-0 bg-black/70"></div>
-
-      <div className="max-w-4xl mx-auto relative z-10">
+      <div className="absolute inset-0 bg-black/85"></div>
+      <div className="relative max-w-4xl mx-auto">
         <div className="text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
             <AlertCircle className="w-6 h-6 text-amber-400" />
