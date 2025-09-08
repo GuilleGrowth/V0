@@ -21,9 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} overflow-x-hidden`}>
-        <div className="max-w-screen-xl mx-auto">
-          <Suspense fallback={null}>{children}</Suspense>
-        </div>
+        <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>
     </html>
