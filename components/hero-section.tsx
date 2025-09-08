@@ -22,14 +22,14 @@ export function HeroSection() {
       <div className="relative z-10 w-full">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-8 pt-10 md:pt-32">
           <div className="text-center md:text-left max-w-2xl">
-            <h1 className="text-3xl leading-tight md:text-5xl font-bold font-heading text-foreground mb-4 sm:mb-6">
+            <h1 className="text-4xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-4 sm:mb-6">
               We Grow Racket Clubs with{" "}
               <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent">
                 AI-Powered Marketing
               </span>
             </h1>
 
-            <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed max-w-xl md:max-w-2xl mx-auto md:mx-0">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 leading-relaxed max-w-xl md:max-w-2xl mx-auto md:mx-0">
               Fill courts and boost memberships with AI-powered marketing automation.
             </p>
 
