@@ -46,7 +46,7 @@ export function MissionSection() {
           <Card className="bg-card border-border text-center">
             <CardHeader className="pb-4">
               <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <div className="text-2xl text-secondary-foreground">📈</div>
+                <div className="text-2xl text-white">📈</div>
               </div>
               <CardTitle className="text-xl font-bold font-heading text-card-foreground">Measurable Results</CardTitle>
             </CardHeader>

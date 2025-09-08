@@ -17,7 +17,8 @@
   --secondary-foreground: oklch(0.98 0 0); /* Light Gray */
   --muted: oklch(0.32 0.02 220); /* Darker Gray */
   --muted-foreground: oklch(0.75 0 0); /* Muted text */
-  --accent: oklch(0.65 0.15 180); /* Teal #38B2AC */
+  /* Enhanced teal accent color with better saturation and vibrancy */
+  --accent: oklch(0.68 0.18 185); /* Enhanced Teal - more vibrant and saturated */
   --accent-foreground: oklch(0.98 0 0); /* Light Gray */
   --destructive: oklch(0.55 0.22 25); /* Red for alerts */
   --destructive-foreground: oklch(0.98 0 0); /* Light Gray */
@@ -34,7 +35,8 @@
   --sidebar-foreground: oklch(0.98 0 0);
   --sidebar-primary: oklch(0.35 0.15 240);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.65 0.15 180);
+  /* Enhanced sidebar accent to match improved teal */
+  --sidebar-accent: oklch(0.68 0.18 185);
   --sidebar-accent-foreground: oklch(0.98 0 0);
   --sidebar-border: oklch(0.25 0.02 220);
   --sidebar-ring: oklch(0.35 0.15 240 / 0.5);
@@ -49,19 +51,22 @@
   --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.12 0.02 240);
   --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.65 0.15 180);
+  /* Enhanced primary color in dark mode to match improved teal */
+  --primary: oklch(0.68 0.18 185);
   --primary-foreground: oklch(0.08 0.02 240);
   --secondary: oklch(0.45 0.12 240);
   --secondary-foreground: oklch(0.98 0 0);
   --muted: oklch(0.15 0.02 240);
   --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.65 0.15 180);
+  /* Enhanced accent color in dark mode for better vibrancy */
+  --accent: oklch(0.68 0.18 185);
   --accent-foreground: oklch(0.08 0.02 240);
   --destructive: oklch(0.55 0.22 25);
   --destructive-foreground: oklch(0.98 0 0);
   --border: oklch(0.15 0.02 240);
   --input: oklch(0.15 0.02 240);
-  --ring: oklch(0.65 0.15 180 / 0.5);
+  /* Enhanced ring color to match improved teal */
+  --ring: oklch(0.68 0.18 185 / 0.5);
   --chart-1: oklch(0.65 0.15 180);
   --chart-2: oklch(0.45 0.12 240);
   --chart-3: oklch(0.75 0.15 60);
@@ -69,12 +74,14 @@
   --chart-5: oklch(0.6 0.15 280);
   --sidebar: oklch(0.12 0.02 240);
   --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.65 0.15 180);
+  /* Enhanced sidebar primary to match improved teal */
+  --sidebar-primary: oklch(0.68 0.18 185);
   --sidebar-primary-foreground: oklch(0.08 0.02 240);
   --sidebar-accent: oklch(0.15 0.02 240);
   --sidebar-accent-foreground: oklch(0.98 0 0);
   --sidebar-border: oklch(0.15 0.02 240);
-  --sidebar-ring: oklch(0.65 0.15 180 / 0.5);
+  /* Enhanced sidebar ring to match improved teal */
+  --sidebar-ring: oklch(0.68 0.18 185 / 0.5);
   --font-inter: "Inter", sans-serif;
   --font-work-sans: "Work Sans", sans-serif;
 }
