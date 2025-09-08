@@ -22,9 +22,8 @@ export default function FounderStory() {
                     From Sport Director to Growth Expert
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                    Guillermo Frias worked as a sport director at multiple racket sports clubs, gaining deep insights
-                    into the industry's challenges. With extensive experience in marketing and AI technology, he
-                    combined these skills to create the ultimate growth strategy for racket sports clubs.
+                    Guillermo Frias worked as a sport director at racket clubs, gaining deep industry insights. With
+                    marketing and AI expertise, he created the ultimate growth strategy for clubs.
                   </p>
                 </div>
 
@@ -34,8 +33,8 @@ export default function FounderStory() {
                     <div>
                       <h3 className="text-lg font-semibold text-foreground mb-2">Industry Experience</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        Years of hands-on experience as a sport director in racket clubs, understanding every aspect
-                        from court operations to member retention and revenue optimization.
+                        Hands-on sport director experience understanding operations, member retention, and revenue
+                        optimization.
                       </p>
                     </div>
                   </div>
@@ -45,8 +44,7 @@ export default function FounderStory() {
                     <div>
                       <h3 className="text-lg font-semibold text-foreground mb-2">Marketing & AI Expertise</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        Advanced expertise in digital marketing strategies combined with cutting-edge AI technology to
-                        create automated systems that drive consistent growth and member engagement.
+                        Digital marketing expertise combined with AI technology for automated growth systems.
                       </p>
                     </div>
                   </div>
@@ -56,9 +54,7 @@ export default function FounderStory() {
                     <div>
                       <h3 className="text-lg font-semibold text-foreground mb-2">The Ultimate Strategy</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        RacketGrowth represents the perfect fusion of industry knowledge, marketing expertise, and AI
-                        innovation - delivering the ultimate growth strategy specifically designed for racket sports
-                        clubs.
+                        Perfect fusion of industry knowledge, marketing, and AI innovation for racket sports clubs.
                       </p>
                     </div>
                   </div>

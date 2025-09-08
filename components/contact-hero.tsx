@@ -10,9 +10,12 @@ export function ContactHero() {
             </span>
           </h1>
 
-          <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
-            Ready to transform your club with AI-powered marketing? Get in touch for a free strategy consultation and
-            discover how we can fill your courts and boost your revenue.
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
+            <span className="block md:hidden">Ready to transform your club? Get a free strategy consultation.</span>
+            <span className="hidden md:block">
+              Ready to transform your club with AI-powered marketing? Get in touch for a free strategy consultation and
+              discover how we can fill your courts and boost your revenue.
+            </span>
           </p>
         </div>
       </div>

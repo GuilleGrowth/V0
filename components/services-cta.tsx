@@ -11,8 +11,11 @@ export function ServicesCTA() {
             <h3 className="text-2xl md:text-3xl font-bold font-heading mb-4">Ready to Transform Your Club?</h3>
 
             <p className="text-base opacity-90 mb-5 max-w-xl mx-auto leading-relaxed">
-              Let's discuss how our AI-powered marketing system can fill your courts, boost memberships, and grow your
-              revenue. Book a free strategy call today.
+              <span className="block md:hidden">Book a free strategy call to grow your club.</span>
+              <span className="hidden md:block">
+                Let's discuss how our AI-powered marketing system can fill your courts, boost memberships, and grow your
+                revenue. Book a free strategy call today.
+              </span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">

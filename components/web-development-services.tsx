@@ -3,26 +3,25 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const webServices = [
   {
     title: "Custom Club Websites",
-    description:
-      "Modern, mobile-optimized websites designed specifically for racket sports clubs with integrated booking systems.",
+    description: "Mobile-optimized club websites with integrated booking systems.",
     features: ["Responsive design", "Court booking integration", "Member portal access", "SEO optimization"],
     icon: "🌐",
   },
   {
     title: "Booking System Integration",
-    description: "Seamless integration with popular booking platforms and custom solutions for court reservations.",
+    description: "Seamless integration with booking platforms for court reservations.",
     features: ["Real-time availability", "Payment processing", "Automated confirmations", "Cancellation management"],
     icon: "📅",
   },
   {
     title: "Landing Pages",
-    description: "High-converting landing pages for specific campaigns, events, and membership drives.",
+    description: "High-converting pages for campaigns, events, and membership drives.",
     features: ["Conversion optimization", "A/B testing capabilities", "Lead capture forms", "Analytics integration"],
     icon: "🎨",
   },
   {
     title: "Member Management Systems",
-    description: "Comprehensive platforms for managing memberships, payments, and member communications.",
+    description: "Platforms for managing memberships, payments, and communications.",
     features: ["Membership tracking", "Payment automation", "Communication tools", "Reporting dashboard"],
     icon: "👥",
   },
@@ -37,7 +36,7 @@ export function WebDevelopmentServices() {
             Websites & Digital Infrastructure
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Professional websites and digital tools that streamline operations and enhance the member experience.
+            Professional websites and tools that streamline operations and enhance member experience.
           </p>
         </div>
 

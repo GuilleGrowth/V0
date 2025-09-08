@@ -19,39 +19,36 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 px-3 sm:px-6 text-center pt-12 sm:pt-16">
-        <div className="max-w-xs sm:max-w-4xl mx-auto">
-          <h1 className="text-3xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-4 sm:mb-6">
-            We Grow Racket Clubs with{" "}
-            <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent">
-              AI-Powered Marketing
-            </span>
-          </h1>
+      <div className="relative z-10 text-center px-4 sm:px-6 pt-10 md:pt-32">
+        <h1 className="text-3xl leading-tight md:text-5xl font-bold font-heading text-foreground mb-4 sm:mb-6">
+          We Grow Racket Clubs with{" "}
+          <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent">
+            AI-Powered Marketing
+          </span>
+        </h1>
 
-          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed max-w-3xl mx-auto">
-            We fill courts, boost memberships, and grow your racket sports programs through automation and smart
-            advertising.
-          </p>
+        <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed max-w-2xl mx-auto">
+          Fill courts and boost memberships with AI-powered marketing automation.
+        </p>
 
-          <div className="flex flex-col gap-2 sm:gap-3 justify-center items-center max-w-xs sm:max-w-sm mx-auto sm:max-w-none sm:flex-row sm:gap-4">
-            <Link href="/contact" className="w-full sm:w-auto">
-              <Button
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold h-10 sm:h-11 px-4 sm:px-5 rounded-xl w-full sm:w-auto text-sm sm:text-base"
-              >
-                Book a Free Strategy Call
-              </Button>
-            </Link>
-            <Link href="/case-studies" className="w-full sm:w-auto">
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground h-10 sm:h-11 px-4 sm:px-5 rounded-xl bg-background w-full sm:w-auto font-semibold text-sm sm:text-base"
-              >
-                View Case Studies
-              </Button>
-            </Link>
-          </div>
+        <div className="flex flex-col gap-3 justify-center items-center md:flex-row md:gap-4 max-w-xs sm:max-w-sm mx-auto md:max-w-none">
+          <Link href="/contact" className="w-full sm:w-auto">
+            <Button
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold h-10 sm:h-11 px-4 sm:px-5 rounded-xl w-full sm:w-auto text-sm sm:text-base"
+            >
+              Book a Free Strategy Call
+            </Button>
+          </Link>
+          <Link href="/case-studies" className="w-full sm:w-auto">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground h-10 sm:h-11 px-4 sm:px-5 rounded-xl bg-background w-full sm:w-auto font-semibold text-sm sm:text-base"
+            >
+              View Case Studies
+            </Button>
+          </Link>
         </div>
       </div>
 

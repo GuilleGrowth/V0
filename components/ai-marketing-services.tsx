@@ -3,8 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const aiServices = [
   {
     title: "Personal Automated Messaging",
-    description:
-      "AI-driven personalized communication that speaks directly to each member's interests and playing habits.",
+    description: "AI-powered messaging based on member behavior and interests.",
     features: [
       "Behavioral trigger campaigns",
       "Personalized court recommendations",
@@ -15,8 +14,7 @@ const aiServices = [
   },
   {
     title: "Email & SMS Campaigns",
-    description:
-      "Sophisticated multi-channel campaigns that nurture leads and retain members through intelligent automation.",
+    description: "Multi-channel campaigns with intelligent automation and A/B testing.",
     features: [
       "Drip campaign automation",
       "A/B testing optimization",
@@ -27,7 +25,7 @@ const aiServices = [
   },
   {
     title: "Database Reactivation",
-    description: "Intelligent systems that identify and re-engage past players with targeted, compelling offers.",
+    description: "Smart systems that re-engage past players with targeted offers.",
     features: [
       "Predictive win-back modeling",
       "Personalized return incentives",
@@ -38,7 +36,7 @@ const aiServices = [
   },
   {
     title: "AI Utilization Reports",
-    description: "Advanced analytics that optimize court scheduling and identify revenue opportunities.",
+    description: "Analytics that optimize scheduling and identify revenue opportunities.",
     features: [
       "Peak time analysis",
       "Revenue optimization suggestions",
@@ -58,8 +56,7 @@ export function AIMarketingServices() {
             AI-Powered Marketing
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Harness the power of artificial intelligence to automate your marketing, personalize member experiences, and
-            maximize court utilization.
+            AI automation that personalizes member experiences and maximizes court utilization.
           </p>
         </div>
 

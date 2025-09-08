@@ -3,8 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const advertisingServices = [
   {
     title: "Paid Advertising Campaigns",
-    description:
-      "Strategic ad campaigns across Google, Facebook, and Instagram designed specifically for racket sports clubs.",
+    description: "Strategic ads across Google, Facebook, and Instagram for racket sports clubs.",
     features: [
       "Google Ads optimization",
       "Facebook & Instagram advertising",
@@ -15,13 +14,13 @@ const advertisingServices = [
   },
   {
     title: "Lead Generation Systems",
-    description: "Comprehensive lead capture and nurturing systems that convert prospects into paying members.",
+    description: "Lead capture and nurturing that converts prospects into members.",
     features: ["Landing page optimization", "Lead magnet creation", "Automated lead scoring", "CRM integration"],
     icon: "🧲",
   },
   {
     title: "Corporate Event Marketing",
-    description: "Specialized campaigns targeting businesses for corporate events, team building, and tournaments.",
+    description: "B2B campaigns targeting businesses for events and tournaments.",
     features: [
       "B2B outreach campaigns",
       "Corporate package development",
@@ -32,7 +31,7 @@ const advertisingServices = [
   },
   {
     title: "Social Media Growth",
-    description: "Engaging content strategies and community management that build your club's online presence.",
+    description: "Content strategies and community management that build online presence.",
     features: [
       "Content calendar planning",
       "Community engagement",
@@ -52,8 +51,7 @@ export function AdvertisingServices() {
             Advertising & Growth Campaigns
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Strategic advertising campaigns that attract new members, fill courts, and generate consistent revenue
-            growth.
+            Strategic campaigns that attract new members and generate consistent growth.
           </p>
         </div>
 
