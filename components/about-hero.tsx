@@ -11,8 +11,8 @@ export function AboutHero() {
           </h1>
 
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
-            We understand racket sports clubs because we've lived the challenges. Our founder's sport director
-            experience plus AI technology creates the perfect growth solution.
+            We understand membership clubs because we've lived the challenges. Our founder's sport director experience
+            plus AI technology creates the perfect growth solution.
           </p>
         </div>
       </div>

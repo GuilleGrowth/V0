@@ -32,7 +32,7 @@ export function ResultsOverview() {
             Results That Speak for Themselves
           </h2>
           <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
-            Aggregate results across all our racket sports club clients
+            Aggregate results across all our membership club clients
           </p>
         </div>
 

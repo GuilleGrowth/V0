@@ -1,16 +1,30 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
-import { ClubTypesCarousel } from "./club-types-carousel"
+import { useState, useEffect } from "react"
+
+const slidingTexts = ["Fitness Clubs", "Health Clubs", "Social Clubs"]
 
 export function HeroSection() {
+  const [currentTextIndex, setCurrentTextIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTextIndex((prev) => (prev + 1) % slidingTexts.length)
+    }, 2000)
+
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/passionate-racket-sports-players-celebrating-with-.jpg"
-          alt="Happy racket sports players celebrating with passion and joy on court"
+          alt="Happy membership club members celebrating with passion and joy on court"
           fill
           className="object-cover"
           priority
@@ -23,11 +37,23 @@ export function HeroSection() {
       <div className="relative z-10 w-full">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-8">
           <div className="text-center md:text-left max-w-2xl mb-8">
-            <h1 className="text-4xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-2 sm:mb-3">
-              We Grow Membership Clubs with{" "}
-              <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent">
-                AI-Powered Marketing
+            <div className="mb-4 flex justify-center md:justify-start">
+              <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold bg-accent/10 text-accent border border-accent/20">
+                ONLY FOR MEMBERSHIP CLUBS
               </span>
+            </div>
+
+            <h1 className="text-4xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-2 sm:mb-3">
+              We Grow{" "}
+              <span className="inline-block min-w-[320px] md:min-w-[380px] text-left whitespace-nowrap">
+                <span
+                  key={currentTextIndex}
+                  className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent animate-in slide-in-from-bottom-2 duration-500"
+                >
+                  {slidingTexts[currentTextIndex]}
+                </span>
+              </span>{" "}
+              with AI-Powered Marketing
             </h1>
 
             <div className="flex flex-col gap-3 justify-center md:justify-start items-center md:items-start md:flex-row md:gap-4 max-w-xs sm:max-w-sm mx-auto md:max-w-none md:mx-0">
@@ -49,10 +75,6 @@ export function HeroSection() {
                 </Button>
               </Link>
             </div>
-          </div>
-
-          <div className="flex justify-center md:justify-start mb-8 mt-32">
-            <ClubTypesCarousel />
           </div>
         </div>
       </div>

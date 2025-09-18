@@ -7,10 +7,10 @@ export default function FounderStory() {
         <div className="max-w-6xl mx-auto">
           <Card className="bg-background border-border overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-              <div className="relative h-64 lg:h-auto">
+              <div className="relative h-48 lg:h-80">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-09-03%20at%203.38.09%20PM-GZ9vuVl8vP46GU89T8gAbQdql4Ury1.png"
-                  alt="Founder at padel wellness club"
+                  src="/images/founder-guillermo.jpeg"
+                  alt="Guillermo Frias - Founder and Growth Expert"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent"></div>
@@ -18,12 +18,12 @@ export default function FounderStory() {
 
               <div className="p-8 lg:p-12">
                 <div className="mb-8">
-                  <h2 className="text-3xl md:text-4xl font-bold font-heading text-foreground mb-4">
+                  <h2 className="text-2xl md:text-3xl font-bold font-heading text-foreground mb-4">
                     From Sport Director to Growth Expert
                   </h2>
-                  <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                    Guillermo Frias worked as a sport director at membership clubs, gaining deep industry insights. With
-                    marketing and AI expertise, he created the ultimate growth strategy for clubs.
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
+                    Guillermo Frias worked as a sport director at a prestigious membership club, gaining deep industry
+                    insights. With marketing and AI expertise, he created the ultimate growth strategy for clubs.
                   </p>
                 </div>
 
@@ -31,8 +31,8 @@ export default function FounderStory() {
                   <div className="flex items-start gap-4">
                     <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground mb-2">Industry Experience</h3>
-                      <p className="text-muted-foreground leading-relaxed">
+                      <h3 className="text-base font-semibold text-foreground mb-2">Industry Experience</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
                         Hands-on sport director experience understanding operations, member retention, and revenue
                         optimization.
                       </p>
@@ -42,8 +42,8 @@ export default function FounderStory() {
                   <div className="flex items-start gap-4">
                     <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground mb-2">Marketing & AI Expertise</h3>
-                      <p className="text-muted-foreground leading-relaxed">
+                      <h3 className="text-base font-semibold text-foreground mb-2">Marketing & AI Expertise</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
                         Digital marketing expertise combined with AI technology for automated growth systems.
                       </p>
                     </div>
@@ -52,8 +52,8 @@ export default function FounderStory() {
                   <div className="flex items-start gap-4">
                     <div className="w-3 h-3 bg-secondary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground mb-2">The Ultimate Strategy</h3>
-                      <p className="text-muted-foreground leading-relaxed">
+                      <h3 className="text-base font-semibold text-foreground mb-2">The Ultimate Strategy</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
                         Perfect fusion of industry knowledge, marketing, and AI innovation for membership clubs.
                       </p>
                     </div>

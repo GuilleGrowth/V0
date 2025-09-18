@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const advertisingServices = [
   {
     title: "Paid Advertising Campaigns",
-    description: "Strategic ads across Google, Facebook, and Instagram for racket sports clubs.",
+    description: "Strategic ads across Google, Facebook, and Instagram for membership clubs.",
     features: [
       "Google Ads optimization",
       "Facebook & Instagram advertising",

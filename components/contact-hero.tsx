@@ -6,7 +6,7 @@ export function ContactHero() {
           <h1 className="text-5xl md:text-6xl font-bold font-heading text-foreground mb-6 leading-tight">
             Let's Grow Your{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Racket Sports Club
+              Membership Club
             </span>
           </h1>
 

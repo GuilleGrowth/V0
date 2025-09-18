@@ -6,7 +6,7 @@ export function CaseStudiesHero() {
           <h1 className="text-5xl md:text-6xl font-bold font-heading text-foreground mb-6 leading-tight">
             Proven Results for{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Membership Clubs
+              Prestigious Membership Clubs
             </span>
           </h1>
         </div>

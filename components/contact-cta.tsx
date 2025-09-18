@@ -7,7 +7,7 @@ export function ContactCTA() {
         <Card className="bg-gradient-to-r from-primary via-secondary to-accent border-0 text-primary-foreground max-w-4xl mx-auto">
           <CardContent className="p-12 text-center">
             <h3 className="text-3xl md:text-4xl font-bold font-heading mb-6">
-              Join 50+ Successful Racket Sports Clubs
+              Join 50+ Successful Prestigious Membership Clubs
             </h3>
 
             <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto leading-relaxed">

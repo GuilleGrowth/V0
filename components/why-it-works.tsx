@@ -4,13 +4,13 @@ const reasons = [
   {
     title: "Industry Expertise",
     description:
-      "We've managed racket sports facilities and understand the operational challenges, seasonal patterns, and member behavior unique to this industry.",
+      "We've managed prestigious membership clubs and understand the operational challenges, seasonal patterns, and member behavior unique to this industry.",
     icon: "🏆",
   },
   {
     title: "Technology Innovation",
     description:
-      "Our AI systems are specifically designed for racket sports clubs, not generic marketing tools adapted for our industry.",
+      "Our AI systems are specifically designed for prestigious membership clubs, not generic marketing tools adapted for our industry.",
     icon: "⚡",
   },
   {

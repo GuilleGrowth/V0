@@ -11,7 +11,7 @@ export function AboutCTA() {
             <h3 className="text-3xl md:text-4xl font-bold font-heading mb-6">Ready to Partner with Us?</h3>
 
             <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Let's discuss how our industry expertise and AI-powered systems can transform your racket sports club.
+              Let's discuss how our industry expertise and AI-powered systems can transform your membership club.
               Schedule a free strategy call to explore the possibilities.
             </p>
 

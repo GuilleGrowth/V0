@@ -26,7 +26,7 @@ export function TeamValues() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground mb-6">Our Values</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The principles that guide everything we do for our racket sports club partners
+            The principles that guide everything we do for our membership club partners
           </p>
         </div>
 

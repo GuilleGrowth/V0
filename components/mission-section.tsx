@@ -7,7 +7,7 @@ export function MissionSection() {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground mb-6">Our Mission</h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            To empower racket sports clubs with AI-driven marketing solutions that transform empty courts into thriving
+            To empower membership clubs with AI-driven marketing solutions that transform empty courts into thriving
             communities and struggling businesses into profitable enterprises.
           </p>
         </div>
@@ -22,7 +22,7 @@ export function MissionSection() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground leading-relaxed">
-                We focus exclusively on racket sports clubs, understanding the unique dynamics of padel, tennis, and
+                We focus exclusively on membership clubs, understanding the unique dynamics of padel, tennis, and
                 pickleball communities.
               </p>
             </CardContent>
