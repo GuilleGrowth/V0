@@ -7,9 +7,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "RacketGrowth - AI-Powered Marketing for Racket Sports Clubs",
-  description:
-    "We fill courts, boost memberships, and grow your racket sports programs through automation and smart advertising.",
+  title: "IncreaseMembers.com - AI-Powered Marketing for Membership Clubs",
+  description: "We boost memberships and improve retention with AI-powered marketing automation for membership clubs.",
   generator: "v0.app",
 }
 

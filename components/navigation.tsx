@@ -23,11 +23,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-14%20at%201.02.18%20PM-yQqnv2p2zaaaw0HRboJOoYf2sFAVXm.png"
-                alt="RacketGrowth Logo"
-                className="w-8 h-8 sm:w-10 sm:h-10"
-              />
+              <img src="/images/racketgrowth-logo.png" alt="RacketGrowth Logo" className="w-8 h-8 sm:w-10 sm:h-10" />
               <span className="text-lg sm:text-2xl font-bold font-heading text-white">RacketGrowth</span>
             </Link>
           </div>

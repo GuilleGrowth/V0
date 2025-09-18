@@ -22,7 +22,7 @@ export default function FounderStory() {
                     From Sport Director to Growth Expert
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                    Guillermo Frias worked as a sport director at racket clubs, gaining deep industry insights. With
+                    Guillermo Frias worked as a sport director at membership clubs, gaining deep industry insights. With
                     marketing and AI expertise, he created the ultimate growth strategy for clubs.
                   </p>
                 </div>
@@ -54,7 +54,7 @@ export default function FounderStory() {
                     <div>
                       <h3 className="text-lg font-semibold text-foreground mb-2">The Ultimate Strategy</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        Perfect fusion of industry knowledge, marketing, and AI innovation for racket sports clubs.
+                        Perfect fusion of industry knowledge, marketing, and AI innovation for membership clubs.
                       </p>
                     </div>
                   </div>

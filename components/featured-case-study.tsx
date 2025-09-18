@@ -41,8 +41,8 @@ export function FeaturedCaseStudy() {
 
                   <blockquote className="border-l-4 border-accent pl-4 mb-6">
                     <p className="text-card-foreground italic mb-2">
-                      "RacketGrowth transformed our business completely. We went from worrying about empty courts to
-                      having consistent bookings and achieved 110% revenue growth in just one year."
+                      "IncreaseMembers.com transformed our business completely. We went from having empty courts to
+                      maintaining consistent bookings and achieved 110% revenue growth in just one year."
                     </p>
                     <cite className="text-sm text-muted-foreground">— Reserve Padel Design District Team</cite>
                   </blockquote>

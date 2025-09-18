@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
+import { ClubTypesCarousel } from "./club-types-carousel"
 
 export function HeroSection() {
   return (
@@ -15,23 +16,19 @@ export function HeroSection() {
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-primary/30 md:from-background/80 md:via-background/60 md:to-primary/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-primary/35 md:from-background/85 md:via-background/65 md:to-primary/25"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 w-full">
-        <div className="max-w-screen-xl mx-auto px-6 lg:px-8 pt-10 md:pt-32">
-          <div className="text-center md:text-left max-w-2xl">
-            <h1 className="text-4xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-4 sm:mb-6">
-              We Grow Racket Clubs with{" "}
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-8">
+          <div className="text-center md:text-left max-w-2xl mb-8">
+            <h1 className="text-4xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-2 sm:mb-3">
+              We Grow Membership Clubs with{" "}
               <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent">
                 AI-Powered Marketing
               </span>
             </h1>
-
-            <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 leading-relaxed max-w-xl md:max-w-2xl mx-auto md:mx-0">
-              Fill courts and boost memberships with AI-powered marketing automation.
-            </p>
 
             <div className="flex flex-col gap-3 justify-center md:justify-start items-center md:items-start md:flex-row md:gap-4 max-w-xs sm:max-w-sm mx-auto md:max-w-none md:mx-0">
               <Link href="/contact" className="w-full sm:w-auto">
@@ -53,11 +50,14 @@ export function HeroSection() {
               </Link>
             </div>
           </div>
+
+          <div className="flex justify-center md:justify-start mb-8 mt-32">
+            <ClubTypesCarousel />
+          </div>
         </div>
       </div>
 
-      {/* Scroll Indicator - Hidden on mobile to save space */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden sm:block">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce hidden sm:block">
         <div className="w-6 h-10 border-2 border-accent rounded-full flex justify-center">
           <div className="w-1 h-3 bg-accent rounded-full mt-2"></div>
         </div>

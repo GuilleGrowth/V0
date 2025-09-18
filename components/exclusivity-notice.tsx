@@ -11,12 +11,11 @@ export function ExclusivityNotice() {
         <div className="text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
             <AlertCircle className="w-6 h-6 text-amber-400" />
-            <h2 className="text-2xl md:text-3xl font-bold text-white">Limited Availability</h2>
+            <h2 className="text-xl md:text-2xl font-bold text-white">Limited Availability</h2>
           </div>
-          <p className="text-lg md:text-xl text-slate-200 mb-4 max-w-2xl mx-auto">
-            We partner with only <span className="text-amber-400 font-semibold">two clubs per discipline</span> in each
-            area for exceptional results.
-          </p>
+          <h3 className="text-lg md:text-xl font-semibold text-white mb-4">
+            We partner with only two clubs in each area for exceptional results.
+          </h3>
           <p className="text-base md:text-lg text-slate-300 max-w-2xl mx-auto">
             This ensures dedicated resources for maximum growth.{" "}
             <span className="text-white font-medium">Secure your spot today.</span>

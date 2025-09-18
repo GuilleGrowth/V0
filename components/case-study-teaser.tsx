@@ -18,8 +18,8 @@ export function CaseStudyTeaser() {
             </h3>
 
             <p className="text-sm md:text-base opacity-90 mb-6 max-w-xl mx-auto leading-relaxed">
-              See how our AI-powered marketing system transformed a struggling padel club into a thriving, fully-booked
-              facility with consistent bookings and doubled their revenue.
+              See how our AI-powered marketing system transformed a padel club into a thriving, fully-booked facility
+              with consistent bookings and doubled their revenue.
             </p>
 
             <Link href="/case-studies">

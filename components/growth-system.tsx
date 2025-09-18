@@ -2,11 +2,11 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const growthPillars = [
   {
-    title: "Meta Ads & Lead Generation",
+    title: "Lead Generation",
     icon: "📱",
   },
   {
-    title: "Booking and Lesson Sign-up Funnel",
+    title: "Funnel Optimization",
     icon: "🌐",
   },
   {
@@ -22,7 +22,7 @@ const growthPillars = [
     icon: "🤖",
   },
   {
-    title: "Membership & Court Usage Automation",
+    title: "Database Reactivation",
     icon: "📊",
   },
 ]

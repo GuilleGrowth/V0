@@ -14,10 +14,10 @@ export function RapportSection() {
             />
           </div>
           <p className="text-lg text-muted-foreground">
-            "As a former sport director with marketing and AI expertise, I created RacketGrowth to help racket sports
-            clubs overcome challenges and grow with proven strategies and smart automation."
+            "As a former sport director with marketing and AI expertise, I created IncreaseMembers.com to help
+            membership clubs overcome challenges and grow with proven strategies and smart automation."
           </p>
-          <p className="text-base font-medium text-foreground mt-4">- Guillermo Frias, Founder, RacketGrowth</p>
+          <p className="text-base font-medium text-foreground mt-4">- Guillermo Frias, Founder, IncreaseMembers.com</p>
         </div>
       </div>
     </section>
