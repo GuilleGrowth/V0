@@ -45,7 +45,7 @@ export function HeroSection() {
 
             <h1 className="text-4xl leading-tight md:text-6xl font-bold font-heading text-foreground mb-2 sm:mb-3">
               We Grow{" "}
-              <span className="inline-block min-w-[320px] md:min-w-[380px] text-left whitespace-nowrap">
+              <span className="inline-block min-w-[320px] md:min-w-[380px] text-left whitespace-nowrap ml-6 md:ml-0">
                 <span
                   key={currentTextIndex}
                   className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent [&]:text-accent animate-in slide-in-from-bottom-2 duration-500"
