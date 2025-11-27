@@ -6,6 +6,7 @@ import { Cormorant_Garamond } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
+import Footer from "@/components/footer"
 
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
         className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${cormorantGaramond.variable} overflow-x-hidden`}
       >
         <Suspense fallback={null}>{children}</Suspense>
+        <Footer />
         <Analytics />
       </body>
     </html>
